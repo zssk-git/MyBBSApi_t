@@ -12,7 +12,6 @@ namespace MyBBSApi.Controllers
         public Users GetUser(string n,string p){
             var user = new UserDAL().GetUserByLogin(n,p);
         return new UserDAL().GetUserByLogin(n,p);
-
         }
     }
 }
