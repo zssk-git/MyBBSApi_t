@@ -1,0 +1,10 @@
+**/bin
+**/obj
+.idea
+.vs
+.vscode
+*.suo
+*.njsproj
+#*.sln
+*.sw?
+
